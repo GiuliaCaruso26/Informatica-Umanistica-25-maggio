@@ -1,0 +1,199 @@
+html, body {height: 100%;}
+body {background: #eee;}
+
+h1 {font-size: 45px; color: #ec5649; font-family: 'Fjalla One', sans-serif;
+    font-family: 'Inter', sans-serif;}
+h2 {font-size: 30px;color: #e47831; font-family: 'Fjalla One', sans-serif;
+    font-family: 'Inter', sans-serif;}
+a {color: #e0742d;}
+
+p, h3, h4 {font-family: 'Bree Serif', serif;
+    font-family: 'Inter', sans-serif;}
+
+h3 {color: #e0742d;}
+h4 {color: #ec5649;}
+li {font-family: 'Bree Serif', serif;
+    font-family: 'Inter', sans-serif;}
+
+.active {
+    color: #e0742d;
+    background-color: #000;
+    
+}
+
+
+
+.animate {
+    -webkit-transition: all 0.3s ease-out;
+              transition: all 0.3s ease-out;
+}
+
+.button {
+    display: inline-block;
+    background: #fff;
+    color: #000;
+    padding: 15px;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+p {line-height: 22px;}
+
+
+.header {background: #e0742d;}
+.header__logo {color: #fff;float: left;display: block;padding: 15px;text-decoration: none;}
+.header__menu {float: right;margin: 0;padding: 0;}
+.header__menu_item {display: inline-block;}
+.header__menu_item a {color: #fff;display: block;padding: 30px;text-decoration: none;}
+.header__menu_item a:hover{background: #000;}
+
+.header__icon-bar {display: block;float: right;padding: 20px;display: none;}
+.header__icon-bar span {display: block;height: 3px;width: 30px;background: #fff;margin-bottom: 5px;}
+.header img {width: 50px;padding: 10px 20px;}
+
+.cover {height: 100%;
+    background-image: url(IMG/spiaggia.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.cover__filter {
+    background: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    opacity: 0.5;
+}
+
+.cover__caption {
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.cover__caption_copy {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+
+.cover--presentazione {height: 50%;}
+.cover--presentazione h1 {font-size: 50px;}
+
+
+.presentazione {}
+.presentazione_copy {max-width: 800px;margin: 0px auto;margin-top: -60px;background: #fff;padding: 20px 40px;position: relative;z-index: 1;}
+
+
+.cover--date {height: 50%;}
+
+.cover--contatti {height: 50%;}
+
+
+.banner {background-color: #fff;height: 50%;margin-top: 30px;}
+.banner__image {width: 30%;float: left;height: 100%;
+    background-image: url(IMG/schermata.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.banner__copy {width: 70%;float: left;height: 100%;display: table;}
+.banner__copy__text {display: table-cell;vertical-align: middle;padding: 30px;}
+
+.banner__copy__text h3 {font-size: 36px;margin-bottom: 0;color: #ec5649;}
+.banner__copy__text h4 {font-size: 28px;margin: 5px 5px;color: #e15a00;}
+
+.bannercontatti {background: #fff;height: 50%;margin: 40px 0;}
+.bannercontatti__image {width: 30%; float: left;height: 100%;
+    background-image: url(IMG/25ad77a7-9ca9-4feb-ad31-4a08242704bd.JPG);
+    background-size: cover;
+    background-position: center center;
+
+}
+.bannercontatti__copy {width: 70%;float: left;height: 100%;display: table;}
+.bannercontatti__copy__text {display: table-cell;vertical-align: middle;padding: 30px;}
+
+.bannercontatti__copy__text h3 {font-size: 36px;margin-bottom: 0;color: #f75e0b;}
+.bannercontatti__copy__text h4 {font-size: 28px; margin: 5px 5px;color: #e0742d;}
+
+
+
+
+
+.cards {max-width: 1200px;margin: 40px auto;}
+.card {width: 30%;margin:0 1.5%;background: #fff;float: left;}
+.card__image {width: 100%;height: auto;}
+.card__copy {padding:5px 20px;}
+.card__copy h3 {margin-bottom: 0;}
+
+.introduzione  {padding: 20px;text-align: center;}
+.abstrat {padding: 20px;}
+.project {padding: 20px;}
+.struttura {padding: 20px;}
+.linguaggi {padding: 20px;}
+.background {padding: 20px;}
+.Communication {padding: 20px;}
+.obiettivi {padding: 20px;}
+.Audience {padding: 20px;}
+.promozione {padding: 20px;}
+.valutazione {padding: 20px;}
+
+ 
+
+
+@media (max-width: 998px) {
+
+    
+}
+
+@media (max-width: 768px) {
+
+    .header__icon-bar {display: block;}
+
+    .header__menu {width: 100%; height: 0px; overflow: hidden;}
+    .header__menu_item {display: block;}
+    .is-open {height: 300px;overflow: auto;}
+    .header {position: fixed;z-index: 100;width: 100%;}
+
+    .banner {height: 100%;}
+ 
+
+    .banner__image {width: 100%;height: 50%;}
+    .banner__copy {width: 100%;height: 50%;}
+
+    .card {width: 90%;margin: 5%;}
+
+    .bannercontatti {height: 100%;}
+
+    .bannercontatti__image {width: 100%;height: 50%;}
+    .bannercontatti__copy {width: 100%;height: 50%;}
+
+    
+}
+
+.footer {background: #333;padding: 20px;color: #fff;margin-top: 40px;}
+
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+  * html .clearfix             { zoom: 1; } /* IE6 */
+  *:first-child+html .clearfix { zoom: 1; } /* IE7 */

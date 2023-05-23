@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musica sotto le stelle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+
+    <header class="header clearfix">
+       <img src="IMG/Elegant Melody Music Studio Logo.png" alt="">
+        <a href=""class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu" animate>
+            <li class="header__menu_item"><a href="index.html">Home</a></li>
+            <li class="header__menu_item"><a href="presentazione.html">Chi siamo</a></li>
+            <li class="header__menu_item active"><a href="date.html">Date</a></li>
+            <li class="header__menu_item"><a href="contatti.html">Contatti</a></li>
+            <li class="header__menu_item"><a href="documentazione.html">Documentazione</a></li>
+        </ul>
+    </header>
+
+
+    <section class="cover cover--date">
+        <div class="cover__filter"></div>
+        <div class="cover__caption">
+            <div class="cover__caption_copy">
+                <h1>Musica sotto le stelle</h1>
+                <h2>Tutte le nostre date </h2>
+                <a href="foto.html" class="button">Vedi le foto</a>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image"src="IMG/tramonto-sulla-spiaggia.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Riccione 15/06/2023</h3>
+            <h4>Dalle 21:30 alle 23:00  presso "PLAYA DEL SOL" - Lungomare Costituzione, 58. </h4>
+            <p>Tributo a Vasco Rossi</p>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/rimini.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Milano Marittima 30/06/2023</h3>
+            <h4>Dalle 21:30 alle 23:00 presso "FLAMINGO BEACH" - Lungomare MiMa, 283. </h4>
+            <p>Tributo a Cesare Cremonini</p>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/milanomarittima.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Rimini 10/07/2023</h3>
+            <h4>Dalle 21:30 alle 23:00  presso "BEACH 33" - Lungomare Augusto Murri, 4. </h4>
+            <p>Tributo a Ed Sheeran</p>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image"src="IMG/cervia.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Cervia 26/07/2023</h3>
+            <h4>Dalle 21:30 alle 23:00 presso "BAGNO BALMOR" - Lungomare Grazia Deledda, 156.</h4>
+            <p>Tributo a Lucio Dalla</p>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/tramonto-sulla-spiaggia.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Riccione 15/08/2023</h3>
+            <h4>Dalle 21:30 alle 23:00  presso "PLAYA DEL SOL" - Lungomare Costituzione, 58.</h4>
+            <p>Tributo ai Queen</p>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/estensi.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Lido degli Estensi 31/08/2023</h3>
+            <h4>Dalle 21:30 alle 23:00 presso "COCOA 23" - Via Severo Pozzati Detto Sepo, 47.</h4>
+            <p>Tributo a Jovanotti</p>
+        </div>
+        </div>
+    </section>
+
+   <footer class="footer">
+        <p>Copiright - 2023 Musicasottolestelle.net</p>
+    </footer>
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".header__icon-bar").click(function(e){
+
+              $(".header__menu").toggleClass('is-open');
+              e. preventDefault();
+            });
+        });
+
+    </script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musica sotto le stelle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+
+    <header class="header clearfix">
+        <img src="IMG/Elegant Melody Music Studio Logo.png" alt="">
+        <a href=""class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu" animate>
+            <li class="header__menu_item"><a href="index.html">Home</a></li>
+            <li class="header__menu_item active"><a href="presentazione.html">Chi siamo</a></li>
+            <li class="header__menu_item"><a href="date.html">Date</a></li>
+            <li class="header__menu_item"><a href="contatti.html">Contatti</a></li>
+            <li class="header__menu_item"><a href="documentazione.html">Documentazione</a></li>
+        </ul>
+    </header>
+
+    <section class="cover cover--presentazione">
+        <div class="cover__filter"></div>
+        <div class="cover__caption">
+            <div class="cover__caption_copy">
+                <h1>Musica sotto le stelle</h1>
+                <a href="foto.html" class="button">Vedi le foto</a>
+
+            </div>
+        </div>
+    </section>
+
+    <article class="presentazione">
+        <div class="presentazione_copy">
+            <h2>Serate con Musica dal vivo con Orchestra, Mare e Stelle </h2>
+        <p>Musica Sotto le Stelle è un evento realizzato in collaborazione con l'Orchestra Filarmonica del Teatro Comunale di Bologna, il cui scopo è quello di creare  atmosfere magiche e suggestive grazie al connubio perfetto tra musica, mare e stelle.</p>
+        <p>Dal 2020 ogni anno, la Riviera Romagnola ospita l'evento in cui vengono organizzate 6 serate in diverse località: Riccione, Rimini, Cevia, Milano Marittima e Lido degli Estensi dove dalle 21:30 fino alle 23:00 l'Orchestra omaggia e celebra grandi artisti di fame nazionale e internazionale reinterpretando in chiave classica le hit più famose.</p>
+        <p>Si tratta di una nuova esperienza sensoriale da passare in compagnia di amici, famiglia o partner.</p>
+        <p>Che cosa aspetti, non restare a casa e partecipa anche tu all'evento dell'estate MUSICA SOTTO LE STELLE!</p>
+        <p>Vedi il programma di quest'anno <a href="date.html">Date</a></p>
+        <p>Dalle 21:30 alle 23:00   NON MANCARE!</p>
+
+       
+    </div>
+    </article>
+
+
+    <section class="banner clearfix">
+        <div class="banner__image"></div>
+        <div class="banner__copy">
+            <div class="banner__copy__text">
+            <h3>Orchestra Filarmonica del Teatro Comunale di Bologna</h3>
+            <h4>Orchestra italiana</h4>
+            <p>L'orcestra "Filarmonica del Teatro Comunale di Bologna" è un'orchestra italiana nata nel 2008, il cui attuale direttore artistico è Roberto Abbado. Dal suo debutto, la Filarmonica ha proposto diversi cicli di concerti in collaborazione con artisti di fama internazionale tra cui: Neville Marriner, Angela Hewitt, Misha Maisky, Stefano Bollani.</p>
+            <p>Tra il 2014 e il 2019 l'orchestra ha intrapreso diverse tournée in Giappone e Cina, realizzando produzioni operistiche e sinfoniche in prestigiosi teatri.</p>
+            <p>La Filarmonica ha inoltre pubblicato negli anni CD musicali con alcuni dei brani più interpretati come: "Bel Canto" e "Romantique".</p>
+        </div>
+        </div>
+        </section>
+
+        <footer class="footer">
+            <p>Copiright - 2023 Musicasottolestelle.net</p>
+        </footer>
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".header__icon-bar").click(function(e){
+
+              $(".header__menu").toggleClass('is-open');
+              e. preventDefault();
+            });
+        });
+
+    </script>
+
+
+
+</body>
+</html>

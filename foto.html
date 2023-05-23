@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Musica sotto le stelle</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <link rel="stylesheet" href="style.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="width=device-width, initial-scale=1">
+   
+</head>
+<body>
+
+    <header class="header clearfix">
+        <img src="IMG/Elegant Melody Music Studio Logo.png" alt="">
+        <a href=""class="header__icon-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+        <ul class="header__menu" animate>
+            <li class="header__menu_item"><a href="index.html">Home</a></li>
+            <li class="header__menu_item"><a href="presentazione.html">Chi siamo</a></li>
+            <li class="header__menu_item"><a href="date.html">Date</a></li>
+            <li class="header__menu_item"><a href="contatti.html">Contatti</a></li>
+            <li class="header__menu_item"><a href="documentazione.html">Documentazione</a></li>
+        </ul>
+    </header>
+
+    <section class="cover cover--presentazione">
+        <div class="cover__filter"></div>
+        <div class="cover__caption">
+            <div class="cover__caption_copy">
+                <h1>Musica sotto le stelle</h1>
+                <h2>Le nostre foto degli eventi passati</h2>
+            </div>
+        </div>
+    </section>
+
+
+   
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image"src="IMG/orchestramare.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Riccione 26/08/2022</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/sera.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Cervia 14/08/2022</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/spartito.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Milano Marittima 05/07/2022</h3>
+        </div>
+        </div>
+    </section>
+
+   
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image"src="IMG/alba.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Riccione 17/06/2022</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/persone.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Lido degli Estensi 12/08/2021</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/concerto.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Rimini 28/07/2021</h3>
+        </div>
+        </div>
+    </section>
+
+
+   
+
+    <section class="cards clearfix">
+        <div class="card">
+            <img class="card__image"src="IMG/concerto in spiaggia-2.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Milano Marittima 2/07/2021</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/persone2.jpeg" alt="">
+            <div class="card__copy">
+            <h3>Riccione 13/07/2020</h3>
+        </div>
+        </div>
+        <div class="card">
+            <img class="card__image"src="IMG/orchestra2.jpg" alt="">
+            <div class="card__copy">
+            <h3>Lido degli Estensi 25/06/2020</h3>
+        </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <p>Copiright - 2023 Musicasottolestelle.net</p>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+
+            $(".header__icon-bar").click(function(e){
+
+              $(".header__menu").toggleClass('is-open');
+              e. preventDefault();
+            });
+        });
+
+    </script>
+
+
+
+</body>
+</html>
